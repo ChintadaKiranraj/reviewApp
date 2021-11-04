@@ -1,0 +1,29 @@
+/* Write your code here */
+
+.buttonReviewCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+}
+.arrowButtons {
+  border-style: none;
+
+  background-color: transparent;
+}
+.reviewContentDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.description {
+  text-align: center;
+}
